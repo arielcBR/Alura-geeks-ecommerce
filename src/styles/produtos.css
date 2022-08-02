@@ -1,0 +1,27 @@
+.categoria__cabecalho{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1.625rem;
+}
+
+.categoria__titulo{
+    color: var(--preto);
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.categoria__link{
+    color: var(--azul);
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.categoria__link__img{
+    display: inline-block; 
+    margin: auto;
+    margin-left: 0.3rem;
+    vertical-align: middle;
+}

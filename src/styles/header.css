@@ -1,0 +1,36 @@
+.header{
+    align-items: center;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 4.5rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header__logo{
+    height: 1.75rem;
+    width: 28vw;
+}
+
+.header__btn{
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    font-family: var(--raleway);
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 37vw;
+}
+
+.header__search{
+    background-image: url("../images/icone-lupa.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1.5rem;
+    width: 1.5rem;
+}
