@@ -2,7 +2,7 @@
     background-color: var(--background-Azul);
 }
 
-.contato__titulo{
+.form__titulo{
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
@@ -39,6 +39,7 @@
     color: #A2A2A2;
     font-size: 1rem;
     font-weight: 400;
+    padding: 0.5rem 0.875rem;
   }
 
 .formulario__textarea{
@@ -49,7 +50,6 @@
     font-weight: 400;
     height: 81px;
     margin-bottom: 0.5rem;
-    padding: 0.75rem;
     width: 100%;
 }
 
