@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="src/styles/header.css">
     <link rel="stylesheet" href="src/styles/destaque.css">
     <link rel="stylesheet" href="src/styles/produtos.css">
+    <link rel="stylesheet" href="src/styles/mapa.css">
+    <link rel="stylesheet" href="src/styles/contato.css">
+    <link rel="stylesheet" href="src/styles/rodape.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
 
@@ -29,42 +32,133 @@
         </div>
     </section>
     <main class="container">
-        <section>
+        <section class="listaProdutos">
             <div class="categoria__cabecalho">
                 <h3 class="categoria__titulo">Star Wars</h3>
                 <a class="categoria__link" href="#">Ver tudo<img class="categoria__link__img" src="/src/images/arrow.png" alt="seta apontando para a direita"></span></a>
             </div>
-            <div>
-                <div>
-                    <img src="src/images/produto1.png">
-                    <p>Produto XYZ</p>
-                    <p>R$ 60,00</p>
-                    <a href="#">Ver produto</a>
+            <div class="produtos">
+                <div class="produto">
+                    <img class="produto__imagem" src="src/images/produto1.png" alt="Xícara formato helmet Stormtrooper">
+                    <p class="produto__descricao">Xícara Helmet Stormtrooper</p>
+                    <p class="produto__preco">R$ 39,90</p>
+                    <a class="produto__link" href="#">Ver produto</a>
                 </div>
 
-                <div>
-                    <img src="src/images/produto2.png">
-                    <p>Produto XYZ</p>
-                    <p>R$ 60,00</p>
-                    <a href="#">Ver produto</a>
+                <div class="produto">
+                    <img class="produto__imagem" src="src/images/produto2.png" alt="boneco Stormtrooper preto">
+                    <p class="produto__descricao">Boneco Stormtrooper Preto</p>
+                    <p class="produto__preco">R$ 89,90</p>
+                    <a class="produto__link" href="#">Ver produto</a>
                 </div>
 
-                <div>
-                    <img src="src/images/produto3.png">
-                    <p>Produto XYZ</p>
-                    <p>R$ 60,00</p>
-                    <a href="#">Ver produto</a>
+                <div class="produto">
+                    <img class="produto__imagem" src="src/images/produto3.png" alt="boneco Yoda">
+                    <p class="produto__descricao">Boneco Yoda</p>
+                    <p class="produto__preco">R$ 79,90</p>
+                    <a class="produto__link" href="#">Ver produto</a>
                 </div>
 
-                <div>
-                    <img src="src/images/produto4.png">
-                    <p>Produto XYZ</p>
-                    <p>R$ 60,00</p>
-                    <a href="#">Ver produto</a>
+                <div class="produto">
+                    <img class="produto__imagem" src="src/images/produto4.png" alt="boneco Stormtrooper branco">
+                    <p class="produto__descricao">Boneco Stormtrooper preto</p>
+                    <p class="produto__preco">R$ 89.90</p>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+            </div>
+
+            <div class="categoria__cabecalho">
+                <h3 class="categoria__titulo">Consoles</h3>
+                <a class="categoria__link" href="#">Ver tudo<img class="categoria__link__img" src="/src/images/arrow.png" alt="seta apontando para a direita"></span></a>
+            </div>
+            <div class="produtos">
+                <div class="produto">
+                    <img class="produto__imagem" src="src/images/console1.jpg" alt="Joystick Xbox Series s branco">
+                    <p class="produto__descricao">Joystick Xbox Series S </p>
+                    <p class="produto__preco">R$ 445,29</p>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+
+                <div class="produto">
+                    <img class="produto__imagem" src="src/images/console2.jpg" alt="console xbox series s">
+                    <p class="produto__descricao">Console Xbox Series S</p>
+                    <p class="produto__preco">R$ 2149,00</p>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+
+                <div class="produto">
+                    <img class="produto__imagem" src="src/images/console3.jpg" alt="console super nintendo">
+                    <p class="produto__descricao">Console Super Nintendo</p>
+                    <p class="produto__preco">R$ 499,00</p>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+
+                <div class="produto">
+                    <img class="produto__imagem" src="src/images/console4.jpg" alt="Nintendo Switch 32GB">
+                    <p class="produto__descricao">Nintendo Switch</p>
+                    <p class="produto__preco">R$ 2299,00</p>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+            </div>
+
+            <div class="categoria__cabecalho">
+                <h3 class="categoria__titulo">Diversos</h3>
+                <a class="categoria__link" href="#">Ver tudo<img class="categoria__link__img" src="/src/images/arrow.png" alt="seta apontando para a direita"></span></a>
+            </div>
+            <div class="produtos">
+                <div class="produto">
+                    <img class="produto__imagem" src="src/images/diversos1.jpg" alt="Camiseta com logo Atari Vintage">
+                    <p class="produto__descricao">Camisa Atari</p>
+                    <p class="produto__preco">R$ 49,90</p>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+
+                <div class="produto">
+                    <img class="produto__imagem" src="src/images/diversos2.jpg" alt="Camiseta com logo SNES Vintage">
+                    <p class="produto__descricao">Camisa SNES</p>
+                    <p class="produto__preco">R$ 49,00</p>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+
+                <div class="produto">
+                    <img class="produto__imagem" src="src/images/diversos3.jpg" alt="Boneco miniatura Sonic">
+                    <p class="produto__descricao">Boneco Sonic</p>
+                    <p class="produto__preco">R$ 99,90</p>
+                    <a class="produto__link" href="#">Ver produto</a>
+                </div>
+
+                <div class="produto">
+                    <img class="produto__imagem" src="src/images/diversos4.jpg" alt="Radio Alarme Vintage">
+                    <p class="produto__descricao">Radio vintage</p>
+                    <p class="produto__preco">R$ 249,90</p>
+                    <a class="produto__link" href="#">Ver produto</a>
                 </div>
             </div>
         </section>
     </main>
-
+    <section class="container mapa">
+        <nav class="mapa__nav">
+            <img class="mapa__logo" src="src/images/logo.png" alt="Logo alura geek">
+            <a class="mapa__link" href="#">Quem somos nós</a>
+            <a class="mapa__link" href="#">Política de privacida</a>
+            <a class="mapa__link" href="#">Programa fidelidade</a>
+            <a class="mapa__link" href="#">Nossas lojas</a>
+            <a class="mapa__link" href="#">Quero ser franqueado</a>
+            <a class="mapa__link" href="#">Anuncie aqui</a>
+        </nav>
+    </section>
+    <section class="container contato">
+        <h3 class="contato__titulo">Fale conosco</h3>
+        <form class="formulario">
+            <label class="formulario__legenda" for="nome">Nome</label>
+            <input class="formulario__input" type="text">
+            <textarea class="formulario__textarea" name="" id="" placeholder="Sua mensagem"></textarea>
+            <button class="formulario__button" type="submit">Enviar mensagem</button>
+        </form>
+    </section>
+    <footer class="container rodape">
+        <p class="rodape__texto">Desenvolvido por Ariel / Oracle ONE</p>
+        <p class="rodape__texto">2022</p>
+    </footer>
 </body>
 </html>

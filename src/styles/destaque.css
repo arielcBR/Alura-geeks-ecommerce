@@ -4,7 +4,7 @@
     background-size: cover;
     color: white;
     display: flex;
-    height: 25vh;
+    height: 22vh;
     width: 100%;
 }
 
@@ -19,12 +19,14 @@
 .destaque__titulo{
     font-size: 1.375rem;
     font-weight: 700;
+    margin-bottom: 0.5rem;
     width: 100%;
 }
 
 .destaque__frase{
     font-size: 0.875rem;
     font-weight: 600;
+    margin-bottom: 0.5rem;
     width: 100%;
 }
 

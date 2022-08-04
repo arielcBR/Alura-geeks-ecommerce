@@ -1,9 +1,18 @@
+.listaProdutos{
+    margin-bottom: 1rem;
+}
+
 .categoria__cabecalho{
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 1.625rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.categoria__cabecalho:first-child{
+    margin: 1rem 0;
 }
 
 .categoria__titulo{
@@ -24,4 +33,50 @@
     margin: auto;
     margin-left: 0.3rem;
     vertical-align: middle;
+}
+
+.produtos{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.produto{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: calc((100% - 1rem) / 2);
+}
+
+.produto__imagem{
+    height: 10.875rem;
+    width: 100%;
+}
+
+.produto__descricao{
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.produto__preco{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.produto__link{
+    color: var(--azul);
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    width: 100%;
 }
