@@ -15,6 +15,11 @@
     margin: 1rem 0;
 }
 
+.cabecalho__addProduto{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
 .categoria__titulo{
     color: var(--preto);
     font-size: 1.375rem;
@@ -44,6 +49,17 @@
     justify-content: center;
 }
 
+.titulo__addProduto{
+    color: var(--preto);
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.botao__addProduto{
+    width: calc(50% + 1rem);
+}
+
 .produto{
     align-items: flex-start;
     display: flex;
@@ -59,6 +75,7 @@
 }
 
 .produto__descricao{
+    color: var(--preto);
     font-size: 0.875rem;
     font-weight: 500;
     margin-top: 0.5rem;
@@ -66,6 +83,7 @@
 }
 
 .produto__preco{
+    color: var(--preto);
     font-size: 1rem;
     font-weight: 700;
     margin-top: 0.5rem;
@@ -78,5 +96,13 @@
     font-weight: 700;
     margin-top: 0.5rem;
     text-decoration: none;
+    width: 100%;
+}
+
+.produto__ref{
+    color: var(--preto);
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
     width: 100%;
 }

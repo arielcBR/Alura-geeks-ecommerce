@@ -31,12 +31,5 @@
 }
 
 .destaque__btn{
-    background-color: var(--azul);
-    color: white;
-    font-size: 0.875rem;
-    font-weight: 700;
-    padding: 0.75rem 1rem 0.75rem 1rem;
-    text-align: center;
-    text-decoration: none;
     width: 33%;
 }
