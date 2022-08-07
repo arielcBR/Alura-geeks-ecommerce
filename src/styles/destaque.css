@@ -31,5 +31,29 @@
 }
 
 .destaque__btn{
-    width: 33%;
+    height: 40px;
+    width: 120px;
+}
+
+@media screen and (min-width: 768px){
+    .destaque__titulo{
+        font-size: 3.25rem;
+        font-weight: 700;
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    
+    .destaque__frase{
+        font-size: 1.375rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    
+    .destaque__btn{
+        margin-bottom: 2rem;
+        width: 120px;
+    }
+    
 }
