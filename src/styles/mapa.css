@@ -25,3 +25,22 @@
     padding-bottom: 1rem;
     text-decoration: none;
 }
+
+@media screen and (min-width: 768px) {
+    .info{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+    }
+    
+    .mapa{
+        width: 40%;
+        height: 360px;
+    }
+
+    .mapa__nav{
+        align-items: flex-start;
+        text-align: start;
+    } 
+}

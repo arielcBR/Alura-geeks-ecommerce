@@ -66,3 +66,33 @@
     text-align: center;
     width: 150px;
 }
+
+@media screen and (min-width: 768px) {
+    .contato{
+        height: 360px;
+        width: 60%;
+    }
+
+    .formulario{
+        align-items: flex-start;
+    }
+
+    .form__titulo{
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .formulario__legenda{
+        max-width: 450px;
+    }
+
+    .formulario__input{
+        max-width: 450px;
+    }
+
+    .formulario__textarea{
+        max-width: 450px;
+    }
+}

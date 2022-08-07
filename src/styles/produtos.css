@@ -110,6 +110,11 @@
     .hide{
         display: none;
     }
+
+    .produto__descricao{
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -146,7 +151,17 @@
         width: calc((100% - 5rem) / 6);
     }
 
+    .produto__descricao{
+        font-size: 0.8rem;
+    }
+
     .hide{
         display: flex;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .produto__descricao{
+        font-size: 1rem;
     }
 }
