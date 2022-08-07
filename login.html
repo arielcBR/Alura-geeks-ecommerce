@@ -22,6 +22,10 @@
 <body>
     <header class="container header">
         <a href="index.html"><img class="header__logo" src="src/images/logo.png" alt="Logo Alura geek"></a>
+        <div class="header__barraPesquisa">
+            <input class="header__barraPesquisa__inputSearch" type="text" placeholder="O que deseja encontrar?">
+            <span><img class="header__barraPesquisa__img" src="src/images/icone-lupa.png" alt="Icone Lupa"></span>
+        </div>
         <div class="header__search"></div>
     </header>
     <section class="container login">
@@ -32,7 +36,8 @@
             <button class="form__login__button btn" type="submit">Enviar mensagem</button>
         </form>
     </section>
-    <section class="container mapa">
+    <div class="info">
+        <section class="container mapa">
         <nav class="mapa__nav">
             <img class="mapa__logo" src="src/images/logo.png" alt="Logo alura geek">
             <a class="mapa__link" href="#">Quem somos nós</a>
@@ -42,7 +47,17 @@
             <a class="mapa__link" href="#">Quero ser franqueado</a>
             <a class="mapa__link" href="#">Anuncie aqui</a>
         </nav>
-    </section>
+        </section>
+        <section class="container contato">
+            <h3 class="form__titulo">Fale conosco</h3>
+            <form class="formulario">
+                <label class="formulario__legenda" for="nome">Nome</label>
+                <input class="formulario__input" type="text">
+                <textarea class="formulario__textarea" name="" id="" placeholder="Sua mensagem"></textarea>
+                <button class="formulario__button" type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+    </div>
     <footer class="container rodape">
         <p class="rodape__texto">Desenvolvido por Ariel / Oracle ONE</p>
         <p class="rodape__texto">2022</p>
