@@ -1,0 +1,26 @@
+.cadastro{
+    background-color: #F5F5F5;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 425px){
+    .cadastro__titulo{
+        font-size: 1rem; 
+        padding: 1rem 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .cadastro__titulo{
+        font-size: 1rem; 
+        padding: 2rem 0 1rem 0;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .cadastro__titulo{
+        font-size: 2rem;    
+        padding: 4rem 0 1rem 0;    
+        text-align: center;
+    }
+}

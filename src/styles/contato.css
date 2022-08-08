@@ -6,6 +6,7 @@
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
+    padding-top: 1rem;
 }
 
 .formulario{
@@ -20,6 +21,7 @@
     background-color: #FFFFFF;
     color: #A2A2A2;
     font-size: 0.75rem 0.75rem 0 0.75rem;
+    margin: 0 auto;
     padding: 0.75rem;
     width: 100%;
 }
@@ -30,7 +32,7 @@
     font-size: 1rem;
     font-weight: 400;
     height: 31px;
-    margin-bottom: 1rem;
+    margin: 0 auto 1rem;
     padding: 0.75rem;
     width: 100%;
 }
@@ -49,7 +51,7 @@
     font-size: 1rem;
     font-weight: 400;
     height: 81px;
-    margin-bottom: 0.5rem;
+    margin: 0 auto 0.5rem;
     width: 100%;
 }
 
@@ -61,10 +63,31 @@
     font-size: 0.875rem;
     font-weight: 600;
     height: 40px;
-    margin: 0.5rem 0 1rem 0;
+    margin: 0 auto 1rem;
     padding: 0.5rem;
     text-align: center;
     width: 150px;
+}
+
+@media screen and (max-width: 425px) {
+    .form__titulo{
+        font-size: 1.375rem;
+    }
+
+    .formulario__legenda{
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .formulario__input{
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .formulario__textarea{
+        max-width: 450px;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -77,9 +100,6 @@
         align-items: flex-start;
     }
 
-    .form__titulo{
-        padding-top: 2rem;
-    }
 }
 
 @media screen and (min-width: 1024px) {
