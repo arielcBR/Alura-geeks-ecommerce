@@ -5,21 +5,22 @@ const listaProdutos = () =>
 
 // POST - Escrita na database
 
-const criaProdutos = (name, imageUrl, price, category) => {
+const criaProdutos = (nome, imageUrl, categoria, preco) => {
     return fetch("http://localhost:3000/produto", { 
         method: "POST",
         headers: {
-            "Content-Type": "aplication/json"
-        },
+        "Content-type": "application/json; charset=UTF-8"
+    },
         body: JSON.stringify({
-            name,
-            imageUrl,
-            price,
-            category
+            name: nome,
+            imageUrl: imageUrl,
+            price: preco,
+            category: categoria
         })
     })
     .then(resposta => {
-        if (resposta.ok) return resposta.body;
+        if (resposta.ok)
+            return resposta.body;
         throw new Error("Não foi possível criar o produto")
     })
 }

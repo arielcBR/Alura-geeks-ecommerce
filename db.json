@@ -143,6 +143,13 @@
       "id": 17,
       "alt": "Radio Alarme Vintage",
       "category": "Diversos"
+    },
+    {
+      "name": "Radio antigo 80's",
+      "imageUrl": "src/images/diversos4.jpg",
+      "price": "599.00",
+      "category": "Radio",
+      "id": 18
     }
   ]
 }

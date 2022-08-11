@@ -5,12 +5,19 @@ const form = document.querySelector("[data-form]");
 form.addEventListener("submit", (evento) => {
     evento.preventDefault();
 
-    const nome = document.querySelector('[data-name]').value;
-    const urlImage = document.querySelector('[data-image]').value;
-    const categoria = document.querySelector('[data-category]').value;
-    const preco = document.querySelector('[data-price]').value;
+    const nome = document.querySelector("#nome").value;
+    console.log(nome);
 
-    produtoServices.criaProdutos(nome, urlImage, categoria, preco)
+    const imageUrl = document.querySelector("#imageUrl").value;
+    console.log(imageUrl);
+
+    const categoria = document.querySelector("#categoria").value;
+    console.log(categoria);
+
+    const preco = document.querySelector("#preco").value;
+    console.log(preco);
+
+    produtoServices.criaProdutos(nome, imageUrl, categoria, preco)
         .then(resposta => {
             window.location.pathname = "/index.html"
             console.log(resposta);

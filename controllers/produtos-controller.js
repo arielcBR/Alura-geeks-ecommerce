@@ -14,7 +14,7 @@ const novoProduto = (name, price, imageUrl, alt) => {
     return card;
 }
 
-const produtos = document.querySelector("[data-product]");
+const produtos = document.querySelector("[data-productIndex]");
 const render = async () => {
     try {
         const listaProdutos = await produtoServices.listaProdutos();
