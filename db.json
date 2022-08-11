@@ -1,166 +1,148 @@
 {
-    "produto":[
-        {
-            "name": "Xícara Stormtrooper",
-            "imageUrl": "src/images/produto1.png",
-            "price": "100.00",
-            "id": 1,
-            "alt": "Xícara formato helmet Stormtrooper",
-            "section": "Star Wars",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Boneco Stormtrooper",
-            "imageUrl": "src/images/produto2.png",
-            "price": "89.90",
-            "id": 2,
-            "alt": "boneco Stormtrooper preto",
-            "section": "Star Wars",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Boneco Yoda",
-            "imageUrl": "src/images/produto3.png",
-            "price": "79.90",
-            "id": 3,
-            "alt": "boneco Yoda",
-            "section": "Star Wars",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Boneco Stormtrooper",
-            "imageUrl": "src/images/produto4.png",
-            "price": "89.90",
-            "id": 4,
-            "alt": "boneco Stormtrooper branco",
-            "section": "Star Wars",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Boneco baby Yoda",
-            "imageUrl": "src/images/baby-yoda.jpg",
-            "price": "99.90",
-            "id": 5,
-            "alt": "Boneco miniatura baby Yoda",
-            "section": "Star Wars",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Boneco Darth Vader",
-            "imageUrl": "src/images/darth vader.jpg",
-            "price": "99.90",
-            "id": 6,
-            "alt": "Boneco miniatura Darth Vader",
-            "section": "Star Wars",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Joystick Xbox Series S",
-            "imageUrl": "src/images/console1.jpg",
-            "price": "445.90",
-            "id": 7,
-            "alt": "Joystick Xbox Series s branco",
-            "section": "Video Games",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Console Xbox Series S",
-            "imageUrl": "src/images/console2.jpg",
-            "price": "2149.00",
-            "id": 8,
-            "alt": "console xbox series s",
-            "section": "Video Games",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Console Nintendo",
-            "imageUrl": "src/images/console3.jpg",
-            "price": "499.90",
-            "id": 9,
-            "alt": "console super nintendo",
-            "section": "Video Games",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Nintendo Switch",
-            "imageUrl": "src/images/console4.jpg",
-            "price": "499.90",
-            "id": 10,
-            "alt": "Nintendo Switch 32GB",
-            "section": "Video Games",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Game Boy Color",
-            "imageUrl": "src/images/gameboy color.jpg",
-            "price": "479.90",
-            "id": 11,
-            "alt": "Game Boy Color",
-            "section": "Video Games",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Console Xbox Series S",
-            "imageUrl": "src/images/console5.jpg",
-            "price": "2149.90",
-            "id": 12,
-            "alt": "console xbox series s",
-            "section": "Video Games",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Camisa Atari",
-            "imageUrl": "src/images/diversos1.jpg",
-            "price": "49.90",
-            "id": 13,
-            "alt": "Camiseta com logo Atari Vintage",
-            "section": "Diversos",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Fantasia Pikachu",
-            "imageUrl": "src/images/fantasia pikachu.jpg",
-            "price": "189.90",
-            "id": 14,
-            "alt": "Fantasia Pikachu Adulto",
-            "section": "Diversos",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Console Nintendo",
-            "imageUrl": "src/images/diversos5.jpg",
-            "price": "2999.90",
-            "id": 15,
-            "alt": "Óculos VR 3D",
-            "section": "Diversos",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Camisa SNES",
-            "imageUrl": "src/images/diversos2.jpg",
-            "price": "49.90",
-            "id": 16,
-            "alt": "Camiseta com logo SNES Vintage",
-            "section": "Diversos",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Boneco Sonic",
-            "imageUrl": "src/images/diversos3.jpg",
-            "price": "99.90",
-            "id": 17,
-            "alt": "Boneco miniatura Sonic",
-            "section": "Diversos",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        },
-        {
-            "name": "Radio vintage",
-            "imageUrl": "src/images/diversos4.jpg",
-            "price": "249.90",
-            "id": 17,
-            "alt": "Radio Alarme Vintage",
-            "section": "Diversos",
-            "description": "aerioasdjauih ahsiuadsuid hauiaesieha"
-        }
-    ]
+  "produto": [
+    {
+      "name": "Xícara Stormtrooper",
+      "imageUrl": "src/images/produto1.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Xícara formato helmet Stormtrooper",
+      "category": "Star Wars"
+    },
+    {
+      "name": "Boneco Stormtrooper",
+      "imageUrl": "src/images/produto2.png",
+      "price": "89.90",
+      "id": 2,
+      "alt": "boneco Stormtrooper preto",
+      "category": "Star Wars"
+    },
+    {
+      "name": "Boneco Yoda",
+      "imageUrl": "src/images/produto3.png",
+      "price": "79.90",
+      "id": 3,
+      "alt": "boneco Yoda",
+      "category": "Star Wars"
+    },
+    {
+      "name": "Boneco Stormtrooper",
+      "imageUrl": "src/images/produto4.png",
+      "price": "89.90",
+      "id": 4,
+      "alt": "boneco Stormtrooper branco",
+      "category": "Star Wars"
+    },
+    {
+      "name": "Boneco baby Yoda",
+      "imageUrl": "src/images/baby-yoda.jpg",
+      "price": "99.90",
+      "id": 5,
+      "alt": "Boneco miniatura baby Yoda",
+      "category": "Star Wars"
+    },
+    {
+      "name": "Boneco Darth Vader",
+      "imageUrl": "src/images/darth vader.jpg",
+      "price": "99.90",
+      "id": 6,
+      "alt": "Boneco miniatura Darth Vader",
+      "category": "Star Wars"
+    },
+    {
+      "name": "Joystick Xbox Series S",
+      "imageUrl": "src/images/console1.jpg",
+      "price": "445.90",
+      "id": 7,
+      "alt": "Joystick Xbox Series s branco",
+      "category": "Video Games"
+    },
+    {
+      "name": "Console Xbox Series S",
+      "imageUrl": "src/images/console2.jpg",
+      "price": "2149.00",
+      "id": 8,
+      "alt": "console xbox series s",
+      "category": "Video Games"
+    },
+    {
+      "name": "Console Nintendo",
+      "imageUrl": "src/images/console3.jpg",
+      "price": "499.90",
+      "id": 9,
+      "alt": "console super nintendo",
+      "category": "Video Games"
+    },
+    {
+      "name": "Nintendo Switch",
+      "imageUrl": "src/images/console4.jpg",
+      "price": "499.90",
+      "id": 10,
+      "alt": "Nintendo Switch 32GB",
+      "category": "Video Games"
+    },
+    {
+      "name": "Game Boy Color",
+      "imageUrl": "src/images/gameboy color.jpg",
+      "price": "479.90",
+      "id": 11,
+      "alt": "Game Boy Color",
+      "category": "Video Games"
+    },
+    {
+      "name": "Console Xbox Series S",
+      "imageUrl": "src/images/console5.jpg",
+      "price": "2149.90",
+      "id": 12,
+      "alt": "console xbox series s",
+      "category": "Video Games"
+    },
+    {
+      "name": "Camisa Atari",
+      "imageUrl": "src/images/diversos1.jpg",
+      "price": "49.90",
+      "id": 13,
+      "alt": "Camiseta com logo Atari Vintage",
+      "category": "Diversos"
+    },
+    {
+      "name": "Fantasia Pikachu",
+      "imageUrl": "src/images/fantasia pikachu.jpg",
+      "price": "189.90",
+      "id": 14,
+      "alt": "Fantasia Pikachu Adulto",
+      "category": "Diversos"
+    },
+    {
+      "name": "Console Nintendo",
+      "imageUrl": "src/images/diversos5.jpg",
+      "price": "2999.90",
+      "id": 15,
+      "alt": "Óculos VR 3D",
+      "category": "Diversos"
+    },
+    {
+      "name": "Camisa SNES",
+      "imageUrl": "src/images/diversos2.jpg",
+      "price": "49.90",
+      "id": 16,
+      "alt": "Camiseta com logo SNES Vintage",
+      "category": "Diversos"
+    },
+    {
+      "name": "Boneco Sonic",
+      "imageUrl": "src/images/diversos3.jpg",
+      "price": "99.90",
+      "id": 17,
+      "alt": "Boneco miniatura Sonic",
+      "category": "Diversos"
+    },
+    {
+      "name": "Radio vintage",
+      "imageUrl": "src/images/diversos4.jpg",
+      "price": "249.90",
+      "id": 17,
+      "alt": "Radio Alarme Vintage",
+      "category": "Diversos"
+    }
+  ]
 }

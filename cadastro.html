@@ -31,15 +31,15 @@
     </header>
     <section class="cadastro container">
         <h3 class="cadastro__titulo">Adicionar novo produto</h3>
-        <form class="formulario">
+        <form class="formulario" data-form>
             <label class="formulario__legenda" for="url">URL da imagem</label>
-            <input class="formulario__input" type="text">
+            <input class="formulario__input" type="text" required data-image>
             <label class="formulario__legenda" for="nome">Categorias</label>
-            <input class="formulario__input" type="text">
-            <label class="formulario__legenda" for="nome">Preço do produto</label>
-            <input class="formulario__input" type="text">
-            <label class="formulario__legenda" for="nome">Descrição do produto</label>
-            <input class="formulario__input" type="text">
+            <input class="formulario__input" type="text" required data-category>
+            <label class="formulario__legenda" for="nome">Nome</label>
+            <input class="formulario__input" type="text" required data-name>
+            <label class="formulario__legenda" for="nome">Preço</label>
+            <input class="formulario__input" type="text" required data-price>
             <button class="formulario__button btn" type="submit">Enviar mensagem</button>
         </form>
     </section>
@@ -69,5 +69,6 @@
         <p class="rodape__texto">Desenvolvido por Ariel / Oracle ONE</p>
         <p class="rodape__texto">2022</p>
     </footer>
+    <script type="module" src="/controllers/criaProdutos-controller.js"></script>
 </body>
 </html>
